@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,800&family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+body {
+   background: url('IMG Изображения/Мальдивы.jpg') no-repeat center center fixed;
+   background-size: cover;
+   font-family: 'Poppins, sans-serif';
+   color: black;
+   font-weight: 400;
+   font-size: 18px;
+}
+
+  /* Шапка сайта */
+
+ a {
+    text-decoration: none;
+ }
+
+ .container {
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgb(107, 51, 51) 10%, #fff 98% );
+   width: 100%;
+   overflow-x: hidden;
+ }
+
+ header {
+    padding: 50px 0;
+ }
+
+ header nav {
+    float: right;
+ }
+
+ header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ header nav ul li {
+    display: inline-block;
+ }
+
+ header nav ul li .active {
+   color: rgb(38, 38, 255);
+   font-weight: 550;
+ }
+
+ header nav ul li a {
+    color: rgb(58, 14, 99);
+    padding: 0 45px ;
+    border-radius: 5px;
+    transition: all 500ms ease;
+ }
+
+ header nav ul li a:hover {
+   background: rgb(247, 159, 188);
+   font-size: 20px;
+   font-weight: 700;
+ }
+ 
+
+/* Основная часть сайта */
+
+.hero {
+   position: relative;
+   padding: 60px 7px;
+}
+
+.hero h2 {
+   color: black;
+   font-style: italic;
+   font-weight: 500;
+   background: aqua;
+   border-radius: 5px;
+   text-align: center;
+   margin: 20px 0px;
+}
+
+.hero .btn {
+    margin-right: 20px;
+    float: right;
+    color: rgb(103, 103, 250);
+    padding: 9px 17px;
+    border-radius: 5px;
+    border: none;
+    transition: all 500ms ease;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.hero .btn:hover {
+   background: #fa9021;
+   font-size: 16px;
+   font-weight: 700;
+   border-radius: 7px;
+   color: rgb(197, 2, 2);
+}
+
+.hero >  img {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+
+.hero > h3 {
+    color: red;
+    padding: 0 30px;
+    z-index: 100;
+}
+
+.hero a {
+   color: red;
+   font-size: 20px;
+   background: silver;
+   border-radius: 5px;
+}
+
+.hero > a:hover {
+   transition: all 500ms ease;
+   color: rgb(163, 22, 22);
+   text-decoration: underline;
+   font-size: 23px;
+   font-weight: 700;
+   background: #fa9021;
+   border-radius: 8px;
+}
+
+
+
+/* Секция с блоками над Footer!  */
+
+.work {
+   padding: 20px 0;
+   background: #fff;
+   background: linear-gradient(90deg, #fff 0%, rgb(107, 51, 51)95%);
+   width: 100%;
+   overflow-x: hidden;
+
+}
+
+.work h2 {
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.work .blocks {
+	display: flex;
+	justify-content: space-between;
+}
+
+.work .blocks .block {
+	width: 25%;
+	border-radius: 10px;
+	padding: 30px 35px;
+}
+
+.work .blocks .block img {
+   width: 30px;
+   height: auto;
+}
+
+.work .blocks .block a {
+color: blue;
+transition: all 500ms ease;
+}
+
+.work .blocks .block a:hover{
+   color: red;
+   text-decoration: underline;
+   font-size: 19px;
+   font-weight: 700;
+   background: #fa9021;
+   border-radius: 7px;
+}
+
+/* Секция с maine */
+
+.maine {
+   margin: 60px 20px;
+}
+
+
+.maine h2 {
+   padding: 5px 0;
+}
+
+.maine .btn {
+   margin-right: 20px;
+    float: right;
+    color: rgb(79, 79, 255);
+    padding: 9px 17px;
+    border-radius: 5px;
+    border: none;
+    transition: all 500ms ease;
+    font-weight: bold;
+}
+
+.maine .btn:hover {
+   background: #fa9021;
+   font-size: 16px;
+   font-weight: 800;
+   color: rgb(163, 22, 22);
+}
+
+.main  .images img {
+   display: inline;
+   justify-content: space-between;
+   border-radius: 8px;
+   width:15%;
+   height: 140px;
+   margin: 30px 25px;
+   box-shadow:  16px 0px 4px rgba(0,0,0,0.1);
+}
+
+
+/* Footer Сайта */
+
+footer {
+   color: #fff;
+	padding: 60px 0;
+   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(107, 51, 51)95%);
+   width: 100%;
+   overflow-x: hidden;
+}
+
+footer .upper {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .upper h2 {
+   text-align: center;
+}
+
+footer .upper .categories p {
+   padding: 15px 15px;
+   color: rgb(143, 141, 141);
+}
+
+footer .upper .categories p a {
+   color: rgb(143, 141, 141);
+}
+
+footer .upper .categories p a:hover {
+   background: #fa9021;
+   transition: all 500ms ease;
+   border-radius: 7px;
+   font-size: 20px;
+   font-weight: 700;
+   color: blue;
+}
+
+footer .upper .categories p,
+.upper .galery img {
+   padding: 15px;
+}
+
+.upper .galery img:hover {
+   transition: all 500ms ease;
+   width: 105px;
+}
+
+.copyraght p {
+   color: rgb(128, 128, 128);
+   font-size: 18px;
+   padding: 7px 20px;
+   text-align: center;
+   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(107, 51, 51)95%);
+   /* width: 100%; */
+   overflow-x: hidden;
+}
+
+.copyraght p:hover {
+   /* transition: all 100ms ease; */
+   font-size: 25px;
+   font-weight: 800;
+   color: red;
+   background: #fa9021;
+   border-radius: 10px;
+   
+}
+
+
